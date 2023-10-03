@@ -1,0 +1,34 @@
+{
+  "name": "roughjs-react",
+  "version": "1.0.0",
+  "dependencies": {
+    "use-deep-compare-effect": "^1.8.1"
+  },
+  "devDependencies": {
+    "@types/react": "^18.2.24",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "typescript": "^5.2.2"
+  },
+  "peerDependencies": {
+    "roughjs": "^4.6.4"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fsefidabi/roughjs-react.git"
+  },
+  "author": "Farzaneh Sefidabi",
+  "license": "MIT",
+  "description": "React wrapper for [RoughJs](https://roughjs.com/), a JavaScript library for creating sketchy, hand-drawn graphics.",
+  "keywords": [
+    "rough",
+    "roughjs",
+    "react",
+    "next",
+    "sketchy",
+    "hand-drawn",
+    "graphic",
+    "canvas",
+    "svg"
+  ]
+}
