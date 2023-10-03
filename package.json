@@ -1,13 +1,27 @@
 {
   "name": "roughjs-react",
   "version": "1.0.0",
+  "main": "dist/index.js",
+  "module": "dist/index.es.js",
+  "files": ["dist"],
+  "scripts": {
+    "build": "rollup -c --bundleConfigAsCjs",
+    "start": "rollup -c -w",
+    "publish": "npm run build && npm publish"
+  },
   "dependencies": {
     "use-deep-compare-effect": "^1.8.1"
   },
   "devDependencies": {
+    "@rollup/plugin-commonjs": "^25.0.4",
+    "@rollup/plugin-node-resolve": "^15.2.1",
     "@types/react": "^18.2.24",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "rollup": "^3.29.4",
+    "rollup-plugin-peer-deps-external": "^2.2.4",
+    "rollup-plugin-postcss": "^4.0.2",
+    "rollup-plugin-typescript2": "^0.36.0",
     "typescript": "^5.2.2"
   },
   "peerDependencies": {
