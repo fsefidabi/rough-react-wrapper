@@ -1,5 +1,5 @@
 {
-  "name": "roughjs-react",
+  "name": "rough-react-wrapper",
   "version": "1.0.0",
   "main": "dist/index.js",
   "module": "dist/index.es.js",
@@ -29,9 +29,9 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/fsefidabi/roughjs-react.git"
+    "url": "https://github.com/fsefidabi/rough-react-wrapper.git"
   },
-  "homepage": "https://github.com/fsefidabi/roughjs-react",
+  "homepage": "https://github.com/fsefidabi/rough-react-wrapper",
   "author": "Farzaneh Sefidabi",
   "license": "MIT",
   "description": "React wrapper for [RoughJs](https://roughjs.com/), a JavaScript library for creating sketchy, hand-drawn graphics.",
