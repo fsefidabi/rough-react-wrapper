@@ -31,6 +31,7 @@
     "type": "git",
     "url": "https://github.com/fsefidabi/roughjs-react.git"
   },
+  "homepage": "https://github.com/fsefidabi/roughjs-react",
   "author": "Farzaneh Sefidabi",
   "license": "MIT",
   "description": "React wrapper for [RoughJs](https://roughjs.com/), a JavaScript library for creating sketchy, hand-drawn graphics.",
