@@ -1,12 +1,13 @@
 # Rough React Wrapper
 
 <p align="center">
-    <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/f39ea108357e6f4759f5cd5096aa1b1c645e27b8/assets/logo.svg" alt="logo">
+    <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/logo.png" style="max-height: 300px" alt="logo">
 </p>
 
 <p align="center">
-    <a href="https://choosealicense.com/licenses/mit/"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="npm"></a>
+    <a href="https://github.com/fsefidabi/rough-react-wrapper/blob/master/LICENSE"><img src="https://img.shields.io/badge/License-MIT-green.svg" alt="npm"></a>
     <a href="https://www.npmjs.com/package/rough-react-wrapper"><img src="https://img.shields.io/npm/v/rough-react-wrapper" alt="npm"></a>
+    <img src="https://badgen.net/badge/-/TypeScript/blue?icon=typescript&label" alt="npm">
 </p>
 
 This is a React wrapper for [Rough.js](https://roughjs.com/), a JavaScript library for creating sketchy, hand-drawn graphics.
@@ -56,7 +57,7 @@ return (
 
 It will generate a rectangle shape like this:
 
-<img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/rough-rectangle.png" alt="rough-rectangle" width="200">
+<img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/rough-rectangle.png" alt="rough-rectangle" width="200">
 
 
 ## Props
@@ -92,13 +93,13 @@ It will generate a rectangle shape like this:
 
 | value          | description                                                                                                                                                                                                                      | example                                                                                                                                                         |
 | -------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `hachure`      | Draws sketchy parallel lines with the same roughness as defined by the roughness and the bowing properties of the shape. It can be further configured using the `fillWeight`, `hachureAngle`, and `hachureGap` properties.       | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-hachure.png" alt="fill-style-hachure" width="50">            |
-| `solid`        | Like a conventional fill.                                                                                                                                                                                                        | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-solid.png" alt="fill-style-solid" width="50">                |
-| `zigzag`       | Draws zig-zag lines filling the shape.                                                                                                                                                                                           | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-zigzag.png" alt="fill-style-zigzag" width="50">              |
-| `cross-hatch`  | Similar to `hachure`, but draws cross hatch lines (akin to two `hachure` fills 90 degrees from each other).                                                                                                                      | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-cross-hatch.png" alt="fill-style-cross-hatch" width="50">    |
-| `dots`         | Fills the shape with sketchy dots.                                                                                                                                                                                               | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-dots.png" alt="fill-style-dots" width="50">                  |
-| `dashed`       | Similar to `hachure` but the individual lines are dashed. Dashes can be configured using the `dashOffset` and `dashGap` properties.                                                                                              | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-dashed.png" alt="fill-style-dashed" width="50">              |
-| `zigzag-line`  | Similar to `hachure` but individual lines are drawn in a zig-zag fashion. The size of the zig-zag can be configured using the `zigzagOffset` proeprty.                                                                           | <img src="https://raw.githubusercontent.com/fsefidabi/rough-react-wrapper/master/assets/fill-style-zigzag-line.png" alt="fill-style-zigzag-line" width="50">    |
+| `hachure`      | Draws sketchy parallel lines with the same roughness as defined by the roughness and the bowing properties of the shape. It can be further configured using the `fillWeight`, `hachureAngle`, and `hachureGap` properties.       | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-hachure.png" alt="fill-style-hachure" width="50">            |
+| `solid`        | Like a conventional fill.                                                                                                                                                                                                        | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-solid.png" alt="fill-style-solid" width="50">                |
+| `zigzag`       | Draws zig-zag lines filling the shape.                                                                                                                                                                                           | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-zigzag.png" alt="fill-style-zigzag" width="50">              |
+| `cross-hatch`  | Similar to `hachure`, but draws cross hatch lines (akin to two `hachure` fills 90 degrees from each other).                                                                                                                      | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-cross-hatch.png" alt="fill-style-cross-hatch" width="50">    |
+| `dots`         | Fills the shape with sketchy dots.                                                                                                                                                                                               | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-dots.png" alt="fill-style-dots" width="50">                  |
+| `dashed`       | Similar to `hachure` but the individual lines are dashed. Dashes can be configured using the `dashOffset` and `dashGap` properties.                                                                                              | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-dashed.png" alt="fill-style-dashed" width="50">              |
+| `zigzag-line`  | Similar to `hachure` but individual lines are drawn in a zig-zag fashion. The size of the zig-zag can be configured using the `zigzagOffset` proeprty.                                                                           | <img src="https://raw.githubusercontent.com/fsefidabi/projects-assets/main/rough-react-wrapper/fill-style-zigzag-line.png" alt="fill-style-zigzag-line" width="50">    |
 
 
 You can also check props specification in [rough.js documentation](https://github.com/rough-stuff/rough/wiki#options)
